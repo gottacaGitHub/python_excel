@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "python-excel",
+    "default_font_size": 12,
+    "table_font_size": 12,
+    "max_recent_files": 1
+  },
+  "ui": {
+    "window_size": [1200, 800],
+    "table_min_size": [400, 300],
+    "analysis_panel_width": 350
+  },
+  "file_format": {
+    "excel_ext": ["*.xlsx", "*.xls"]
+  },
+  "analysis": {
+    "has_headers": true,
+    "size_type_detect": 100,
+    "date_formats": [
+      "%Y-%m-%d",
+      "%d/%m/%Y",
+      "%m/%d/%Y",
+      "%Y.%m.%d",
+      "%d.%m.%Y"
+    ]
+  }
+}
